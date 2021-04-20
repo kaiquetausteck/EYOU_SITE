@@ -6,6 +6,7 @@ import 'react-notifications-component/dist/theme.css'
 
 //views
 import LandingPage from './Pages/LandingPage/LandingPage'
+import Index from './Pages/Index/Index'
 
 //export function default
 export default function Routes() 
@@ -19,6 +20,7 @@ export default function Routes()
 
         <Switch>
 
+          <Route exact path="/" component={Index}/>
           <Route exact path="/servicos" component={LandingPage}/>
 
         </Switch>

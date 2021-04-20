@@ -1,0 +1,142 @@
+@import "../../Styles/Mixin.scss";
+
+#index {
+    .header {
+        min-height: 100vh;
+        background-color: $colorPrimary;
+        display: flex;
+        flex-direction: column;
+        #banner {
+            width: 100%;
+            height: 691px;
+            margin-bottom: 90px;
+            position: relative;
+            display: flex;
+            overflow: hidden;
+            .image-background {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left:0;
+                top:0;
+                .full {
+                    background-position: center top;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    z-index: 3;
+                    animation: fadeInRight 1s;
+                }
+                .line {
+                    width: 70%;
+                    height: 5px;
+                    background-color: $colorOrange;
+                    border-radius: 4.5px;
+                    position: absolute;
+                    top: 50%;
+                    animation: fadeInLeft 2s;
+                }
+            }
+            > .container {
+                display: flex;
+                align-items: center;
+                position: relative;
+                height: 100%;
+                z-index: 10;
+                .text {
+                    width: 640px;
+                    max-width: 100%;
+                    h3 {
+                        font-size: 36px;
+                        line-height: 41.3px;
+                        color: #FFF;
+                        font-weight: 300;
+                        b {
+                            font-weight: 700;
+                            color: $colorSecondary;
+                        }
+                    }
+                    .image {
+                        margin-bottom: 80px;
+                    }
+                    p {
+                        font-size: 24px;
+                        line-height: 36px;
+                        color: #FFF;
+                        font-weight: 700;
+                        span {
+                            color: $colorSecondary;
+                        }
+                    }
+                    .btn {
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+    .products-default {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -40px;
+        position: relative;
+        z-index: 12;
+        .product {
+            width: 338px;
+            margin: 0px 15px;
+            border-radius: 26px;
+            background-color: #FFF;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            &:hover {
+                background-color: $colorOrange;
+                * {
+                    color: #FFF !important;
+                }
+            }
+            * {
+                transition: all .2s;
+            }
+            .title {
+                padding: 22px;
+                display: flex;
+                align-items: center;
+                svg {
+                    path {
+
+                    }
+                }
+                span {
+                    font-size: 18px;
+                    line-height: 20px;
+                    color: $colorPrimary;
+                    font-weight: 700;
+                    margin-left: 11px;
+                }
+            }
+            p {
+                margin: 0px;
+                padding: 0px 22px 22px 22px;
+                font-size: 15px;
+                line-height: 25px;
+                display: inline-block;
+                height: 120px;
+                color: #597D8C;
+            }
+            a {
+                background-color: rgba(#000, .05);
+                height: 47px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 16px;
+                line-height: 18.3px;
+                color: #C7C7C7;
+            }
+        }
+    }
+}
