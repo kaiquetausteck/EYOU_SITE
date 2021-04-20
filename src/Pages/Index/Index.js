@@ -3,7 +3,7 @@ import Header from "../../Components/Layout/Header";
 
 import "./Index.scss"
 
-import { IconProductSms, IconProductTelephony, IconProductWhatsapp, Logo } from '../../Components/ImagemSvg/ImagemSvg';
+import { IconProductSms, IconProductTelephony, IconProductWhatsapp, Logo, PersonAbout } from '../../Components/ImagemSvg/ImagemSvg';
 import Banner from '../../Images/bg-home.png'
 import { Link } from 'react-router-dom';
 
@@ -51,7 +51,7 @@ export default function Index(props)
 
             </div>
 
-            <div id="products-default container">
+            <div id="products-default" className="container">
 
                 <div className="product">
                     <div className="title">
@@ -99,6 +99,29 @@ export default function Index(props)
             </div>
 
             <div id="about">
+
+                <div className="container">
+
+                    <PersonAbout/>
+
+                    <div className="text-about">
+
+                        <h2>
+                        22 anos contribuindo ativamente para o desenvolvimento do Mercado.
+                        
+                        </h2>
+                        <p>
+                            • Mais de 190 clientes, dos mais diversos segmentos<br/>
+                            • Foco em resultados concretos<br/>
+                            • Infraestrutura e equipe especializada<br/>
+                            • Integração via API e nativo em várias Aplicações do mercado de CRM, Cobrança e Financeiro. 
+                        </p>
+
+                        <Link className="btn outline primary">Conheça mais sobre nós</Link>
+
+                    </div>
+
+                </div>
 
             </div>
 

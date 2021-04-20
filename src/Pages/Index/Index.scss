@@ -1,7 +1,7 @@
 @import "../../Styles/Mixin.scss";
 
 #index {
-    .header {
+    #header {
         min-height: 100vh;
         background-color: $colorPrimary;
         display: flex;
@@ -76,7 +76,7 @@
             }
         }
     }
-    .products-default {
+    #products-default {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -136,6 +136,21 @@
                 font-size: 16px;
                 line-height: 18.3px;
                 color: #C7C7C7;
+            }
+        }
+    }
+    #about {
+        .container {
+            display: flex;
+            justify-content: space-around;
+            svg {
+                
+            }
+            .text-about {
+                width: 574px;
+                h2 {
+
+                }
             }
         }
     }

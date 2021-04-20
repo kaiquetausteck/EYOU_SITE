@@ -74,5 +74,10 @@ svg {
         &.white {
             border: 1px solid #FFF;
         }
+        &.primary {
+            background-color: transparent;
+            color: $colorPrimary;
+            border: 1px solid $colorPrimary;
+        }
     }
 }
