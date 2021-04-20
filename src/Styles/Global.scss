@@ -1,0 +1,41 @@
+@import './Mixin.scss';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    margin:0px;
+    padding:0px;
+}
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+:target {
+    scroll-margin-top: .8em;
+}
+.container {
+    width: 1335px;
+    max-width: 90%;
+    margin: 0px auto;
+}
+
+svg {
+    position: relative;
+    .svg-zoomIn {
+        position: absolute;
+      animation: zoomIn 1s linear;
+    }
+    .svg-backInLeft {
+        position: absolute;
+        animation: backInLeft 1s linear;
+    }
+    .svg-backInRight {
+        position: absolute;
+        animation: fadeIn 1s linear;
+    }
+    
+}
