@@ -31,19 +31,19 @@ export default function Header()
 
                 <ul className="nav">
                     <li>
-                        <Link>
+                        <Link to="/">
                             <Logo width={217} height={58}/>
                         </Link>
                     </li>
                     <li>
-                        <Link>
+                        <Link to="/quem-somos">
                             <span>
                                 Quem Somos
                             </span>
                         </Link>
                     </li>
                     <li>
-                        <Link>
+                        <Link to="/servicos">
                             <span>
                                 Nossos Serviços
                             </span>
