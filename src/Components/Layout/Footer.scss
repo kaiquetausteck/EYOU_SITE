@@ -1,0 +1,126 @@
+@import "../../Styles/Mixin.scss";
+
+footer {
+    background-color: #4930E3;
+    display: flex;
+    flex-direction: column;
+    > .container {
+        padding: 30px 0px;
+        display: flex;
+        justify-content: space-between;
+        .left {
+            display: flex;
+            align-items: flex-start;
+            .row {
+                margin-right: 65px;
+                margin-top: 15px;
+                svg {
+
+                }
+                .social {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin-top: 25px;
+                    svg {
+                        margin: 0px 10px;
+                    }
+                }
+            }
+            .menu {
+                font-size: 13px;
+                line-height: 20px;
+                color: #FFF;
+                &:nth-child(odd){
+                    border-right: 1px solid rgba(#272241, 0.3);
+                    border-left: 1px solid rgba(#272241, 0.3);
+                    padding:0px 39px;
+                    margin: 0px 39px;
+                }
+                p {
+                    margin: 0px;
+                    padding: 0px;
+                    text-transform: uppercase;
+                    color: $colorSecondary;
+                }
+                ul {
+                    margin: 0px;
+                    padding: 0px;
+                    list-style: none;
+                    max-width: 390px;
+                    display: flex;
+                    flex-direction: column;
+                    li {
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        a {
+                            color: #FFF;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+        .right {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            img {
+                margin:0px 0px 10px 0px;
+            }
+        }
+    }
+    .powered {
+        background-color: #3B23CF;
+        min-height: 50px;
+        display: flex;
+        font-size: 13px;
+        line-height: 39px;
+        color: #FFF;
+        a {
+            color: #FFF;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        > .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-sizing: border-box;
+            padding: 0px 120px;
+        }
+    }
+}
+@media(max-width:500px) {
+    footer {
+        > .container {
+            flex-direction: row;
+            align-items: center;
+            .left {
+                flex-direction: column;
+                align-items: center;
+            }
+            .menu {
+                border: none !important;
+                padding: 0px !important;
+                margin: 0px !important;
+                width: 100% !important;
+                &.unique {
+                    border: none !important;
+                }
+                ul {
+                    li {
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+        .powered {
+            > .container {
+                flex-direction: column;
+                padding: 20px 0px;
+            }
+        }
+    }
+}
