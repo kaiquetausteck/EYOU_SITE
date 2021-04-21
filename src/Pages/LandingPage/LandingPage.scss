@@ -98,82 +98,6 @@
         margin-top: -73px;
         margin-bottom: 130px;
         width: 100%;
-        .list-products {
-            display: flex;
-            flex-direction: row;
-            padding: 0px 30px;
-            overflow: auto;
-            width: 100%;
-            box-sizing: border-box;
-            justify-content: center;
-            .group {
-                max-width: 40%;
-                display: flex;
-                justify-content: center;
-                &:last-child {
-                    max-width: 20%;
-                }
-            }
-            .product {
-                display: inline-block;
-                width: 234px;
-                max-width: 100%;
-                margin: 0px 8px;
-                box-shadow: 0px 3.69596px 3.69596px rgba(0, 0, 0, 0.25);
-                border-radius: 24px;
-                text-align: center;
-                margin-bottom: 66px;
-                h2 {
-                    border-radius: 24px 24px 0px 0px;
-                    height: 73px;
-                    margin: 0px;
-                    padding: 0px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    font-size: 36px;
-                    color: #FFF;
-                    font-weight: 500;
-                    background-color: rgba(0,0,0,.15);
-                }
-                p {
-                    padding: 18px 0px;
-                    margin:0px 22px;
-                    b {
-                        font-weight: 700;
-                    }
-                    &.description {
-                        font-size: 14.78px;
-                        line-height: 22.18px;
-                        color: #FFF;
-                        font-weight: 400;
-                    }
-                    &.list {
-                        border-top: 1px solid #FFF;
-                        font-size: 14.78px;
-                        line-height: 22.18px;
-                        color: #FFF;
-                        font-weight: 700;
-                    }
-                }
-                &.orange {
-                    background-color: $colorOrange;
-                }
-                &.blue {
-                    background-color: $colorBlue;
-                }
-                &.green {
-                    background-color: $colorGreen;
-                }
-                &.purple {
-                    background-color: $colorPurple;
-                }
-                &.red {
-                    background-color: $colorRed;
-                }
-            }
-            
-        }
         .send-contact {
             width: 429px;
             max-width: 100%;
@@ -629,17 +553,6 @@
     #landing-page {
         #products {
             margin-bottom: 40px !important;
-            .group {
-                max-width: 100% !important;
-                flex-direction: column !important;
-                .product {
-                    width: 100% !important;
-                }
-            }
-            .list-products {
-                flex-direction: column !important;
-                align-items: center !important;
-            }
         }
         #banner {
             #header {

@@ -1,0 +1,350 @@
+@import "../../Styles/Mixin.scss";
+#index #header{
+    min-height: calc(100vh - 260px) !important;
+    position: relative;
+}
+
+#conheca{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 21px;
+    .container-fluid{
+        width: 95%;
+        max-width: 1335px;
+        display: inline-block;
+        position: relative;
+        padding-bottom: 20px;
+        .right{
+            width: 645px;
+            float: right;
+            text-align: right;
+            h2{
+                font-size: 47px;
+                line-height: 55px;
+                color:#fff;
+                font-weight: 700;
+                position: relative;
+                margin-bottom: 50px;
+            }
+            p{
+                display: inline-block;
+                width: 100%;
+                max-width: 645px;
+                margin-bottom: 50px;
+                font-size: 16px;
+                line-height: 150%;
+                color:#fff;
+            }
+            button{
+                display: block;
+                width: 292px;
+                float: right;
+                height: 48px;
+                color:#fff;
+                text-align: center;
+                font-size: 16px;
+                font-weight: bold;
+                border: 1px solid #fff;
+                border-radius: 10px;
+                background: none;
+            }
+
+        }
+        .left{
+            width: calc(100% - 645px );
+            float: left;
+            .maozinha{
+                left: 8%;
+                bottom: -50px;
+                position: absolute;
+                z-index: 1;
+            }
+
+            .macbook{
+                z-index: 2;
+                left: 3%;
+                margin-top: 30px;
+                top: 0px;
+                position: absolute;
+            }
+        }
+    }
+}
+#pilares{
+    width: 100%;
+    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 132px;
+    .container-fluid{
+        max-width: 1100px;
+        width: 95%;
+        display: inline-block;
+        h2{
+            font-size: 28px;
+            line-height: 150%;
+            display: inline-block;
+            text-align: center;
+            font-weight: 500;
+            color: $colorGray;
+        }
+        h3{
+            font-size: 17px;
+            line-height: 150%;
+            color: #332D56;
+            font-weight: 500;
+            display: inline-block;
+            width: 90%;
+            text-align: center;
+
+        }
+        ul{
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            padding: 0;
+            margin: 53px 0 0 0;
+            list-style: none;
+            li{
+                display: inline-block;
+                box-sizing: border-box;
+                width: calc(100% / 5);
+                padding: 0 20px;
+                vertical-align: top;
+                p{
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 150%;
+                    color:$colorGray;
+
+                }
+            }
+        }
+    }
+}
+#integracao{
+    width: 100%;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../Images/banner-quem-somos.jpg");
+    padding-top: 53px;
+    padding-bottom: 63px;
+    .container-fluid{
+        max-width: 1300px;
+        width: 95%;
+        display: inline-block;
+        text-align: left;
+        .left{
+            width: 714px;
+            float: left;
+            h2{
+                font-size: 36px;
+                line-height: 150%;
+                color:#fff;
+                font-weight: 700;
+                position: relative;
+                margin-bottom: 50px;
+            }h2::after{
+            content: "";
+                display: inline-block;
+                width: 20px;
+                height: 3px;
+                background-color: $colorOrange;
+                position: absolute;
+                left:0;
+                bottom: -20px;
+             }
+            p{
+                display: inline-block;
+                width: 100%;
+                max-width: 450px;
+                margin-bottom: 50px;
+                margin-top: 0;
+                font-size: 16px;
+                line-height: 150%;
+                color:#fff;
+            }
+            button{
+                display: block;
+                width: 377px;
+                height: 34px;
+                color:#fff;
+                text-align: center;
+                font-size: 16px;
+                font-weight: bold;
+                border: 1px solid #fff;
+                border-radius: 10px;
+                background: none;
+            }
+
+        }
+        .right{
+            width: calc(100% - 714px );
+            float: right;
+            position: relative;
+            .balaoVerde{
+                right: 25%;
+                top: -65px;
+                position: absolute;
+            }
+
+            .balaoConversa{
+                right: 0;
+                top: 100px;
+                position: absolute;
+            }
+        }
+    }
+}
+#nuvem{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding-top: 100px;
+    padding-bottom: 126px;
+    position: relative;
+    overflow: hidden;
+    .nuvem-1{
+        position: absolute;
+        left:3%;
+        bottom:50px;
+        z-index: 0;
+
+    }
+    .nuvem-2{
+        position: absolute;
+        right:0;
+        top: 130px;
+        z-index: 0;
+
+    }
+    .nuvem-3{
+        position: absolute;
+        left:0;
+        top: 100px;
+        z-index: 0;
+
+    }
+    .nuvem-5{
+        position: absolute;
+        right:0;
+        top: 50px;
+        z-index: 0;
+
+    }
+    .nuvem-4{
+        position: absolute;
+        right:10%;
+        bottom: -50px;
+        z-index: 0;
+
+    }
+    .container-fluid{
+        display: inline-block;
+        max-width: 1100px;
+        width: 95%;
+        position: relative;
+        z-index: 1;
+        h2{
+            font-size: 28px;
+            line-height: 32px;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            color: $colorGray;
+            font-weight: bold;
+            position: relative;
+        }h2::after{
+             content: "";
+             display: inline-block;
+             width: 20px;
+             height: 3px;
+             background-color: $colorOrange;
+             position: absolute;
+             left:0;
+             right:0;
+             margin: auto;
+             bottom: -20px;
+         }
+        p{
+            font-size: 16px;
+            line-height: 150%;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            color: $colorGray;
+            font-weight: 400;
+        }
+        ul{
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+            width: 100%;
+            list-style: none;
+            margin-top: 20px;
+            li{
+                width: 100%;
+                text-align: left;
+                font-size: 16px;
+                line-height: 150%;
+                color: $colorGray;
+                b{
+                    color: $colorOrange;
+                }
+            }
+        }
+    }
+
+}
+@media ( max-width: 1000px ) {
+    #pilares .container-fluid ul {
+        text-align: left;
+    }
+    #pilares .container-fluid ul li {
+        width: calc(100% / 2);
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+    #integracao .container-fluid .right {
+        display: none;
+    }
+    #integracao .container-fluid .left {
+        width: 100%;
+        max-width: 100%;
+    }
+    #nuvem {
+        .nuvem-3, .nuvem-5 {
+            display: none;
+        }
+    }
+}
+@media ( max-width: 1280px ) {
+    #conheca .container-fluid .left .macbook{
+        display: none;
+    }
+    #conheca .container-fluid .left .maozinha{
+        display: none;
+    }
+    #conheca .container-fluid .left{
+        display: none;
+    }
+    #conheca .container-fluid .right{
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    #conheca .container-fluid .right p{
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+    }
+    #conheca .container-fluid .right button{
+        text-align: center;
+        float: none;
+        margin: auto;
+    }
+
+}

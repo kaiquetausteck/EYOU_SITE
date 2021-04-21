@@ -30,9 +30,6 @@ export { IconProductTelephony } from './svg/IconProductTelephony'
 export { IconProductWhatsapp } from './svg/IconProductWhatsapp'
 export { PersonAbout } from './svg/PersonAbout'
 
-
-
-
 //ICONS SERVICOS
 export { IconServicosSMSBanner } from './svg/IconServicosSMSBanner'
 export { IconServicosTitulo } from './svg/IconServicosTitulo'
@@ -72,3 +69,16 @@ export { IconServicosTimer } from './svg/IconServicosTimer'
 export { IconServicosEscudo } from './svg/IconServicosEscudo'
 export { IconServicosCheckTrue } from './svg/IconServicosCheckTrue'
 //END  ICONS SERVICOS
+
+export { QSBalao1 } from './svg/QSBalao1'
+export { QSBalao2 } from './svg/QSBalao2'
+export { QSBalao3 } from './svg/QSBalao3'
+export { QSBalao4 } from './svg/QSBalao4'
+export { QSBalao5 } from './svg/QSBalao5'
+export { QSBalaoVerde } from './svg/QSBalaoVerde'
+export { QSBalaoConversa } from './svg/QSBalaoConversa'
+export { QSIconDataCenter } from './svg/QSIconDataCenter'
+export { IconMultisessao } from './svg/IconMultisessao'
+export { IconChamadoTecnico } from './svg/IconChamadoTecnico'
+export { IconTecnologia } from './svg/IconTecnologia'
+export { IconSemSurpresa } from './svg/IconSemSurpresa'
