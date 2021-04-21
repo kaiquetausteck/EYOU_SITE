@@ -1,6 +1,7 @@
 @import "../../Styles/Mixin.scss";
 
 #index {
+    overflow-x: hidden;
     #header {
         min-height: 100vh;
         background-color: $colorPrimary;
@@ -142,14 +143,383 @@
     #about {
         .container {
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
+            padding-top: 83px;
             svg {
-                
+                margin-right: 100px;
             }
             .text-about {
                 width: 574px;
                 h2 {
+                    font-size: 40px;
+                    line-height: 50px;
+                    font-weight: 700;
+                    color: $colorPrimary;
+                    margin-bottom: 15px;
+                }
+                p {
+                    font-size: 20px;
+                    line-height: 30px;
+                    font-weight: 300;
+                    color: rgba(#000, .5);
+                    margin-top: 0px;
+                    padding-top: 0px;
+                }
+                a {
+                    width: 300px;
+                    margin-top: 32px;
+                }
+            }
+        }
+    }
+    #services {
+        background-color: #F0F0F0;
+        padding: 78px 0px;
+        justify-content: center;
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h4 {
+                font-size: 28px;
+                line-height: 42px;
+                text-align: center;
+                color: #597D8C;
+                margin: 0px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                &:after {
+                    width: 20px;
+                    height: 3px;
+                    border-radius: 4.5px;
+                    background-color: $colorOrange;
+                    content: '';
+                    display: inline-block;
+                    margin-top: 41px;
+                }
+            }
+            .list-products {
+                margin-top: 67px;
+            }
+            .vantagens {
+                margin-top: 20px;
+                display: flex;
+                .vantagem {
+                    display: flex;
+                    align-items: flex-start;
+                    margin: 0px 16.5px;
+                    justify-content: space-between;
+                    align-items: center;
+                    svg {
+                        
+                    }
+                    p {
+                        color: #332D56;
+                        margin: 0px;
+                        width: 234px;
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 17px;
+                        font-size: 15px;
+                        line-height: 20px;
+                        b {
+                            font-size: 20px;
+                            line-height: 22.5px;
+                        }
+                        span {
+                            margin-top: 10px;
+                            color: #597D8C;
+                        }
+                    }
+                }
+            }
+            .btn.orange {
+                width: 463px;
+                margin-top: 50px;
+            }
+        }
+    }
+    #solucoes {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        overflow: none;
+        &:after {
+            width: 100%;
+            height: 715px;
+            background-color: $colorPurple;
+            content: '';
+            position: absolute;
+            left: 0;
+            border-top:22px solid #F0F0F0;
+            z-index: -2;
+        }
+        .container {
+            position: relative;
+            .image-absolute {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                z-index: -1;
+                width: 100%;
+                height: 100%;
+                img {
+                    position: absolute;
+                    right: -285px;
+                }
+                > svg {
+                    transform: scaleX(-1);
+                    width: 284px;
+                    height: 257px;
+                    position: absolute;
+                    left: -320px;
+                    top: 270px;
+                    path {
+                        stroke: $colorOrange;
+                    }
+                }
+            }
+            h5 {
+                font-size: 40px;
+                line-height: 45.96px;
+                color: #FFF;
+                width: 617px;
+                margin-top: 69px;
+                margin-bottom: 22px;
+            }
+            > p {
+                font-size: 18px;
+                line-height: 27px;
+                color: #FFF;
+                width: 740px;
+                max-width: 100%;
+                margin-top: 0px;
+            }
+            .lista {
+                margin-top: 47px;
+                width: 926px;
+                max-width: 100%;
+                position: relative;
+                .item {
+                    background: $colorPrimary;
+                    float: left;
+                    width: 48%;
+                    height: 161px;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 19px;
+                    margin: 1% 2% 1% 1%;
+                    display: flex;
+                    overflow: hidden;
+                    align-items: center;
+                    margin-left: 0px;
+                    .icon {
+                        height: 100%;
+                        background: rgba(#000, .1);
+                        width: 100px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        svg {
+                            path {
+                                
+                            }
+                        }
+                    }
+                    p {
+                        width: calc(100% - 150px);
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 20px;
+                        font-size: 22px;
+                        line-height: 33px;
+                        color: #FFF;
+                        font-weight: 700;
+                        span {
+                            font-size: 16px;
+                            line-height: 24px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+        .to-center {
+            display: flex;
+            margin: 60px auto 100px auto;
+            justify-content: flex-start;
+            .btn {
+                margin-left: calc(444px + 2%);
+                width: 430px;
+            }
+        }
+    }
+    #cloud {
+        background-color: $colorOrange;
+        background-image: url(../../Images/bg-cloud.png);
+        background-repeat: repeat-x;
+        background-position: bottom;
+        height: 382px;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+        margin-bottom: 120px;
+        animation: fumaca 120s linear infinite;
+        @keyframes fumaca {
+            0% {
+                background-position-x: 0%;
+            }
+            50% {
+                background-position-x: 100%;
+            }
+            100% {
+                background-position-x: 0%;
+            }
+        }
+        .container {
+            position: relative;
+            z-index: 999;
+            display: flex;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+            padding-left: 190px;
+            margin-top: 20px;
+            h3 {
+                width: 540px;
+                font-size: 40px;
+                line-height: 45px;
+                color: #FFF;
+                max-width: 100%;
+                border-right: 1px solid $colorSecondary
+            }
+            .text-link {
+                width: 540px;
+                max-width: 100%;
+                display: flex;
+                height: 100%;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 68px;
+                p {
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: #FFF;
+                    font-weight: 400;
+                }
+                a {
+                    width: 234px;
+                }
+            }
+        }
+        &:after {
+            width: 100%;
+            height: calc(100% + 70px);
+            margin-top: -68px;
+            content: '';
+            position: absolute;
+            background: url(../../Images/bg-cloud-foguete.png) center no-repeat;
+        }
+    }
+    #vantagens {
+        display: flex;
+        flex-direction: column;
+        .container {
+            display: flex;
+            justify-content: center;
+            .table {
+                width: 1009px;
+                max-width: 100%;
+                font-size: 16px;
+                line-height: 18px;
+                color: #FFF;
+                font-weight: bold;
+                .thead {
+                    background-color: $colorPurple;
+                    height: 67px;
+                    border-radius: 9px;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    display: flex;
+                    align-items: center;
+                    padding: 0px 8px;
+                    box-sizing: border-box;
+                    .center {
+                        text-align: center;
+                    }
+                    > div {
+                        width: 200px;
+                        padding: 0px 30px;
+                        box-sizing: border-box;
+                        &:nth-child(1) {
+                            flex: 1;
+                        }
+                    }
+                }
+                .tbody {
+                    margin: 0px 8px;
+                    background-color: $colorPrimary;
+                    border-radius: 0px 0px 16px 16px;
+                    overflow: hidden;
+                    .tr {
+                        display: flex;
+                        .center {
+                            text-align: center;
+                        }
+                        > div {
+                            width: 200px;
+                            padding: 14.5px 21px;
+                            box-sizing: border-box;
+                            &:nth-child(1) {
+                                flex: 1;
+                            }
+                        }
+                        &:nth-child(even) {
+                            background-color: rgba(#000, .1);
+                        }
+                    }
+                }
+            }
+        }
+        .btn {
+            width: 429px;
+            margin-top: 49px;
+            margin-bottom: 108px;
+        }
+    }
+    #parceiros-nome {
+        display: flex;
+        background-color: #F0F0F0;
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h5 {
+                margin-top: 54px;
+                font-size: 28px;
+                line-height: 32.24px;
+                color: #597D8C;
+                margin-bottom: 44px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                &:after {
+                    width: 20px;
+                    height: 3px;
+                    border-radius: 4.5px;
+                    background-color: $colorOrange;
+                    content: '';
+                    display: inline-block;
+                    margin-top: 10px;
+                }
 
+            }
+            .list {
+                display: flex;
+                margin-bottom: 86px;
+                svg {
+                    margin: 0px 40px;
                 }
             }
         }
