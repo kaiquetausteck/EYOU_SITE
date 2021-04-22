@@ -4,11 +4,13 @@ import { IconChart, IconCheck, IconClock, IconCloud, IconServicosMedalha, IconCo
 import "./Servicos.scss"
 import LogoEYou from "./LogoEYou.png"
 import { Link } from 'react-router-dom';
+import Footer from "../../Components/Layout/Footer";
 
 export default function Servicos(props)
 {
 
     return(
+        <>
         <div id="servicos">
 
             <div id="header">
@@ -27,7 +29,7 @@ export default function Servicos(props)
                                 Não vendemos produtos. Oferecemos <b>soluções customizadas que abrangem todos os canais de comunicação possíveis</b> com seu público alvo.
                             </p>
 
-                            <Link className="btn">AGENDE UM TESTE GRÁTIS</Link>
+                            <Link className="btn" to={'/contato'}>AGENDE UM TESTE GRÁTIS</Link>
 
                         </div>
                     </div>
@@ -79,7 +81,7 @@ export default function Servicos(props)
                                 <span>SMS</span>
                             </div>
                             <div className="item">
-                                <IconServicosBalaoLapis/>
+                                <IconServicosBalaoLapis color={'#b3c1c7'}/>
                                 <span>Messaging</span>
                             </div>
                         </div>
@@ -119,31 +121,31 @@ export default function Servicos(props)
                         </div>
                         <div className="items">
                             <div className="item">
-                                <IconServicosChaton/>
+                                <IconServicosChaton color={'#597D8C'}/>
                                 <span>Chaton</span>
                             </div>
                             <div className="item">
-                                <IconServicosChatbot/>
+                                <IconServicosChatbot color={'#597D8C'}/>
                                 <span>Chatbot</span>
                             </div>
                             <div className="item">
-                                <IconServicosPush/>
+                                <IconServicosPush color={'#597D8C'}/>
                                 <span>Push</span>
                             </div>
                             <div className="item">
-                                <IconServicosEmail/>
+                                <IconServicosEmail color={'#597D8C'} />
                                 <span>E-mail</span>
                             </div>
                             <div className="item">
-                                <IconServicosEnriquece/>
+                                <IconServicosEnriquece color={'#b3c1c7'}/>
                                 <span>Enriquece</span>
                             </div>
                             <div className="item">
-                                <IconServicosBoleto/>
+                                <IconServicosBoleto color={'#597D8C'} />
                                 <span>Boleto</span>
                             </div>
                             <div className="item">
-                                <IconServicosLinkCurto/>
+                                <IconServicosLinkCurto color={'#597D8C'}/>
                                 <span>Link Curto</span>
                             </div>
                         </div>
@@ -183,15 +185,15 @@ export default function Servicos(props)
                         </div>
                         <div className="items">
                             <div className="item">
-                                <IconServicosWhatsapp/>
+                                <IconServicosWhatsapp color={'#b3c1c7'}/>
                                 <span>WhatsApp</span>
                             </div>
                             <div className="item">
-                                <IconServicosWhatsappMassa/>
+                                <IconServicosWhatsappMassa color={'#597D8C'}/>
                                 <span>WhatsApp Massa</span>
                             </div>
                             <div className="item">
-                                <IconServicosWhatsappConsulta/>
+                                <IconServicosWhatsappConsulta color={'#b3c1c7'}/>
                                 <span>WhatsApp Consulta</span>
                             </div>
                         </div>
@@ -252,7 +254,7 @@ export default function Servicos(props)
                     </div>
                 </div>
 
-                <Link className="btn orange container">Faça já uma cotação</Link>
+                <Link className="btn orange container" to={'/contato'}>Faça já uma cotação</Link>
             </div>
 
             <div id="services">
@@ -360,166 +362,169 @@ export default function Servicos(props)
             <div id="bigtable">
                 <h4>Soluções inteligentes em Comunicação com foco no Mercado Digital</h4>
                 <p>Potencialize seus negócios, simplificando e maximizando a rentabilidade de seus projetos,<br/> integrando mais tecnologia à rotina da sua empresa</p>
-
-                <table>
-                    <tr>
-                        <th className="left">COMPARATIVO ENTRE OS MEIOS DE COMUNICAÇÃO</th>
-                        <th>E-mail</th>
-                        <th>Torpedo SMS</th>
-                        <th>Torpedo de Voz</th>
-                        <th>Mala Direta</th>
-                        <th>PA | Callcenter</th>
-                    </tr>
-                    <tr>
-                        <td className="left">Agendamento para Envio</td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                    </tr>
-                    <tr>
-                        <td className="left">Atinge fones fixo e celular</td>
-                        <td></td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                    </tr>
-                    <tr>
-                        <td className="left">Cobrança apenas das mensagens entregues	</td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td className="left">Criação de Menus Interativos	</td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td className="left">Custo por interação com o cliente final (R$)	</td>
-                        <td>0,025</td>
-                        <td>0,03 a 0,12</td>
-                        <td>0,05 a 0,20</td>
-                        <td>2,30</td>
-                        <td>8,50</td>
-                    </tr>
-                    <tr>
-                        <td className="left">Escalonável</td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td className="left">FeedBack Instantâneo	</td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                    </tr>
-                    <tr>
-                        <td className="left">Garantia de Entrega	</td>
-                        <td></td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                    </tr>
-                    <tr>
-                        <td className="left">Identificação de Caixa Postal	</td>
-                        <td></td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                    </tr>
-                    <tr>
-                        <td className="left">Integração Webservices e HTTP	</td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td className="left">Interativo</td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td className="left">Interface Web	</td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td className="left">Investimento em Infra	</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                    </tr>
-                    <tr>
-                        <td className="left">Não precisa de Opt-in	</td>
-                        <td></td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                    </tr>
-                    <tr>
-                        <td className="left">Performance por Recursos / Hora	</td>
-                        <td>10.000</td>
-                        <td>500.000</td>
-                        <td>200.000</td>
-                        <td>100.000</td>
-                        <td>60</td>
-                    </tr>
-                    <tr>
-                        <td className="left">Relatório On Line e Real Time	</td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                    </tr>
-                    <tr>
-                        <td className="left">SLA de Serviço	</td>
-                        <td></td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                    </tr>
-                    <tr>
-                        <td className="left">Transferência para Call Center	</td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td><IconServicosCheckTrue /></td>
-                        <td></td>
-                        <td><IconServicosCheckTrue /></td>
-                    </tr>
-                </table>
+                <div className="search-table-outter ">
+                    <table>
+                        <tr>
+                            <th className="left">COMPARATIVO ENTRE OS MEIOS DE COMUNICAÇÃO</th>
+                            <th>E-mail</th>
+                            <th>Torpedo SMS</th>
+                            <th>Torpedo de Voz</th>
+                            <th>Mala Direta</th>
+                            <th>PA | Callcenter</th>
+                        </tr>
+                        <tr>
+                            <td className="left">Agendamento para Envio</td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                        </tr>
+                        <tr>
+                            <td className="left">Atinge fones fixo e celular</td>
+                            <td></td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                        </tr>
+                        <tr>
+                            <td className="left">Cobrança apenas das mensagens entregues	</td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td className="left">Criação de Menus Interativos	</td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td className="left">Custo por interação com o cliente final (R$)	</td>
+                            <td>0,025</td>
+                            <td>0,03 a 0,12</td>
+                            <td>0,05 a 0,20</td>
+                            <td>2,30</td>
+                            <td>8,50</td>
+                        </tr>
+                        <tr>
+                            <td className="left">Escalonável</td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td className="left">FeedBack Instantâneo	</td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                        </tr>
+                        <tr>
+                            <td className="left">Garantia de Entrega	</td>
+                            <td></td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                        </tr>
+                        <tr>
+                            <td className="left">Identificação de Caixa Postal	</td>
+                            <td></td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                        </tr>
+                        <tr>
+                            <td className="left">Integração Webservices e HTTP	</td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td className="left">Interativo</td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td className="left">Interface Web	</td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td className="left">Investimento em Infra	</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                        </tr>
+                        <tr>
+                            <td className="left">Não precisa de Opt-in	</td>
+                            <td></td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                        </tr>
+                        <tr>
+                            <td className="left">Performance por Recursos / Hora	</td>
+                            <td>10.000</td>
+                            <td>500.000</td>
+                            <td>200.000</td>
+                            <td>100.000</td>
+                            <td>60</td>
+                        </tr>
+                        <tr>
+                            <td className="left">Relatório On Line e Real Time	</td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                        </tr>
+                        <tr>
+                            <td className="left">SLA de Serviço	</td>
+                            <td></td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                        </tr>
+                        <tr>
+                            <td className="left">Transferência para Call Center	</td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td><IconServicosCheckTrue /></td>
+                            <td></td>
+                            <td><IconServicosCheckTrue /></td>
+                        </tr>
+                    </table>
+                </div>
 
                 <p><b>Vamos encontrar juntos a sua solução customizada ideal</b></p>
-                <Link className="btn orange container">Fale conosco</Link>
+                <Link className="btn orange container" to={'/contato'}>Fale conosco</Link>
             </div>
         </div>
+        <Footer/>
+        </>
     )
 
 }

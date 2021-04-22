@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from "../../Components/Layout/Header";
+import { Link } from 'react-router-dom';
 
 import "./QuemSomos.scss"
 
@@ -30,6 +31,7 @@ export default function QuemSomos(props)
                             </div>
                             <div className={'right'}>
                                 <h2>Conheça a Eyou</h2>
+                                <div className="line animate__animated"></div>
                                 <p>
                                     Somos uma empresa focada no desenvolvimento de soluções inteligentes para Comunicação
                                     através de mensagens SMS, Email, Voz, WhatsApp, Push, ChatOnline e ChatBot para o
@@ -43,9 +45,11 @@ export default function QuemSomos(props)
                                         e garantir seu sucesso Digital.
                                     </b>
                                 </p>
-                                <button type={'button'} className={'btn'}>
-                                    Entre em contato!
-                                </button>
+                                <Link to={'/contato'}>
+                                    <button type={'button'} className={'btn'}>
+                                        Entre em contato!
+                                    </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -92,9 +96,11 @@ export default function QuemSomos(props)
                             <br />
                             <b>Desta forma garantimos aos nossos clientes o mínimo de esforço em desenvolvimento e impacto em custos.</b>
                         </p>
-                        <button type={'button'} className={'btn'}>
-                            Dúvidas sobre integração? Fale conosco
-                        </button>
+                        <Link to={'/contato'}>
+                            <button type={'button'} className={'btn'}>
+                                Dúvidas sobre integração? Fale conosco
+                            </button>
+                        </Link>
                     </div>
                     <div className={'right'}>
                         <QSBalaoVerde />

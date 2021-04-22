@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { IconYoutube, IconLinkedin, IconInstagram, Logo } from '../ImagemSvg/ImagemSvg'
+import { BrowserView, MobileView } from 'react-device-detect';
+import { slide as Menu } from 'react-burger-menu';
+
 
 import "./Header.scss"
 
 export default function Header()
 {
 
+    const [opened, setOpened] = useState(false)
+
     return(
-        <header>
+        <header >
             <div className="head-social">
                 <div className="container">
                     <span>
@@ -50,7 +55,7 @@ export default function Header()
                         </Link>
                     </li>
                     <li>
-                        <Link>
+                        <Link to={'/contato'}>
                             <span>
                                 Compre créditos Eyou
                             </span>
@@ -60,18 +65,59 @@ export default function Header()
 
                 <ul className="buttons">
                     <li>
-                        <Link className="btn outline white">
+                        <Link to={'/contato'} className="btn outline white">
                             CONTRATAR
                         </Link>
                     </li>
                     <li>
-                        <Link className="btn secondary shadow">
+                        <Link to={'/solucoes'} className="btn secondary shadow">
                             ACESSAR SOLUÇÕES
                         </Link>
                     </li>
                 </ul>
 
+                <MobileView>
+                    <Menu right width={ '80%' }  >
+                        <ul className="nav">
+                            <li>
+                                <Link to="/quem-somos">
+                            <span>
+                                Quem Somos
+                            </span>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/servicos">
+                            <span>
+                                Nossos Serviços
+                            </span>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to={'/contato'}>
+                            <span>
+                                Compre créditos Eyou
+                            </span>
+                                </Link>
+                            </li>
+                        </ul>
+
+                        <ul className="buttons">
+                            <li>
+                                <Link to={'/contato'} className="btn outline white">
+                                    CONTRATAR
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to={'/solucoes'} className="btn secondary shadow">
+                                    ACESSAR SOLUÇÕES
+                                </Link>
+                            </li>
+                        </ul>
+                    </Menu>
+                </MobileView>
             </div>
+
         </header>
     )
 

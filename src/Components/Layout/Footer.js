@@ -35,32 +35,32 @@ export default function Footer()
 
                         <ul>
                             <li>
-                                <a href="">
+                                <a href="/quem-somos">
                                     Diferencial
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="/quem-somos">
                                     Plataforma em Cloud
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="/quem-somos">
                                     Integração
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="/quem-somos">
                                     Possibilidade de Aplicação
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="/quem-somos">
                                     Converção e Venda
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="/quem-somos">
                                     Vantagens Eyou
                                 </a>
                             </li>
@@ -74,27 +74,27 @@ export default function Footer()
 
                         <ul>
                             <li>
-                                <a href="">
+                                <a href="/servicos">
                                     SMS
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="/servicos">
                                     Apps
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="/servicos">
                                     Telefonia
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="/servicos">
                                     WhatsApp
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="/servicos">
                                     Impressos
                                 </a>
                             </li>
@@ -108,12 +108,12 @@ export default function Footer()
 
                         <ul>
                             <li>
-                                <a href="">
+                                <a href="/contato">
                                     +55 11 3568-2843
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="contato">
                                     contato@eialerta.com.br
                                 </a>
                             </li>

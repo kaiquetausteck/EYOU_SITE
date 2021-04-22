@@ -56,7 +56,7 @@ export default function Index(props)
                                 Conheça nossa plataforma multicanal para envio de mensagens aos seus clientes, totalmente customizavel e modular - <span>Tenha total liberdade e crie uma solução sob medida para sua empresa.</span> 
                             </p>
 
-                            <a className="btn outline white">COMECE AGORA, É GRÁTIS!</a>
+                            <a className="btn outline white" href={'/contato'}>COMECE AGORA, É GRÁTIS!</a>
 
                         </div>
                     </div>
@@ -79,7 +79,7 @@ export default function Index(props)
                         <b>• 234 Milhões</b> de Celulares no Brasil <br/>
                         <b>• 5 Bilhões</b> de Celulares no Mundo
                     </p>
-                    <Link>saiba mais</Link>
+                    <Link to={'/servicos'}>saiba mais</Link>
                 </div>
 
                 <div className="product">
@@ -93,7 +93,7 @@ export default function Index(props)
                         <b>• 234 milhões</b> de Celulares<br/>
                         <b>• 40 milhões</b> de telefones fixos 
                     </p>
-                    <Link>saiba mais</Link>
+                    <Link to={'/servicos'} >saiba mais</Link>
                 </div>
 
                 <div className="product">
@@ -107,7 +107,7 @@ export default function Index(props)
                         <b>• 86% abertos</b> em até <b>3 minutos</b> <br/>
                         <b>• 127 Milhões</b> de usuários no Brasil
                     </p>
-                    <Link>saiba mais</Link>
+                    <Link to={'/servicos'}>saiba mais</Link>
                 </div>
 
             </div>
@@ -131,7 +131,7 @@ export default function Index(props)
                             • Integração via API e nativo em várias Aplicações do mercado de CRM, Cobrança e Financeiro. 
                         </p>
 
-                        <Link className="btn outline primary">Conheça mais sobre nós</Link>
+                        <Link className="btn outline primary" to={'/quem-somos'}>Conheça mais sobre nós</Link>
 
                     </div>
 
@@ -197,7 +197,7 @@ export default function Index(props)
 
                     </div>
 
-                    <Link className="btn orange">
+                    <Link className="btn orange" to={'/contato'}>
                         Comece hoje mesmo um teste grátis!
                     </Link>
 
@@ -311,7 +311,7 @@ export default function Index(props)
                 </div>
 
                 <div className="to-center container">
-                    <a className="btn orange">Saiba mais sobre todas as possibilidades</a>
+                    <a className="btn orange" href={'/contato'}>Saiba mais sobre todas as possibilidades</a>
                 </div>
 
             </div>
@@ -326,7 +326,7 @@ export default function Index(props)
                         <p>
                             Investimentos em softwares, hardwares e infraestrutura por nossa conta, com Hospedagem robusta e confiável.
                         </p>
-                        <Link className="btn outline white">Saiba mais</Link>
+                        <Link className="btn outline white" to={'/contato'}>Saiba mais</Link>
                     </div>
 
                 </div>
@@ -336,112 +336,113 @@ export default function Index(props)
             <div id="vantagens">
 
                 <div className="container">
+                    <div className="search-table-outter ">
+                        <div className="table">
 
-                    <div className="table">
+                            <div className="thead">
+                                <div>CARACTERÍSTICAS</div>
+                                <div className="center">CONCORRENTES</div>
+                                <div className="center"><Logo width={110} height={30}/></div>
+                            </div>
 
-                        <div className="thead">
-                            <div>CARACTERÍSTICAS</div>
-                            <div className="center">CONCORRENTES</div>
-                            <div className="center"><Logo width={110} height={30}/></div>
+                            <div className="tbody">
+
+                                <div className="tr">
+                                    <div>
+                                        Livre da instalação de Hardwares ou Softwares
+                                    </div>
+                                    <div className="center"><IconVantagemTableTimes/></div>
+                                    <div className="center"><IconVantagemTableCheck/></div>
+                                </div>
+
+                                <div className="tr">
+                                    <div>
+                                    Sistema Redundante
+                                    </div>
+                                    <div className="center"><IconVantagemTableTimes/></div>
+                                    <div className="center"><IconVantagemTableCheck/></div>
+                                </div>
+
+                                <div className="tr">
+                                    <div>
+                                    Custo zero de implementação
+                                    </div>
+                                    <div className="center"><IconVantagemTableTimes/></div>
+                                    <div className="center"><IconVantagemTableCheck/></div>
+                                </div>
+
+                                <div className="tr">
+                                    <div>
+                                    Custo zero de manutenções e atualizações
+                                    </div>
+                                    <div className="center"><IconVantagemTableTimes/></div>
+                                    <div className="center"><IconVantagemTableCheck/></div>
+                                </div>
+
+                                <div className="tr">
+                                    <div>
+                                    Relatórios on-line
+                                    </div>
+                                    <div className="center"><IconVantagemTableTimes/></div>
+                                    <div className="center"><IconVantagemTableCheck/></div>
+                                </div>
+
+                                <div className="tr">
+                                    <div>
+                                    Programação via WEB
+                                    </div>
+                                    <div className="center"><IconVantagemTableTimes/></div>
+                                    <div className="center"><IconVantagemTableCheck/></div>
+                                </div>
+
+                                <div className="tr">
+                                    <div>
+                                    Fast Track - nova campanha em 30 segundos
+                                    </div>
+                                    <div className="center"><IconVantagemTableTimes/></div>
+                                    <div className="center"><IconVantagemTableCheck/></div>
+                                </div>
+
+                                <div className="tr">
+                                    <div>
+                                    Relatórios on-line
+                                    </div>
+                                    <div className="center"><IconVantagemTableTimes/></div>
+                                    <div className="center"><IconVantagemTableCheck/></div>
+                                </div>
+
+                                <div className="tr">
+                                    <div>
+                                    Controle de Qualidade e Entrega
+                                    </div>
+                                    <div className="center"><IconVantagemTableTimes/></div>
+                                    <div className="center"><IconVantagemTableCheck/></div>
+                                </div>
+
+                                <div className="tr">
+                                    <div>
+                                    Campanha de áudio simples
+                                    </div>
+                                    <div className="center"><IconVantagemTableCheck/></div>
+                                    <div className="center"><IconVantagemTableCheck/></div>
+                                </div>
+
+                                <div className="tr">
+                                    <div>
+                                    Campanhas interativas
+                                    </div>
+                                    <div className="center"><IconVantagemTableCircle/></div>
+                                    <div className="center"><IconVantagemTableCheck/></div>
+                                </div>
+
+                            </div>
+
                         </div>
-
-                        <div className="tbody">
-
-                            <div className="tr">
-                                <div>
-                                    Livre da instalação de Hardwares ou Softwares
-                                </div>
-                                <div className="center"><IconVantagemTableTimes/></div>
-                                <div className="center"><IconVantagemTableCheck/></div>
-                            </div>
-
-                            <div className="tr">
-                                <div>
-                                Sistema Redundante	
-                                </div>
-                                <div className="center"><IconVantagemTableTimes/></div>
-                                <div className="center"><IconVantagemTableCheck/></div>
-                            </div>
-
-                            <div className="tr">
-                                <div>
-                                Custo zero de implementação	
-                                </div>
-                                <div className="center"><IconVantagemTableTimes/></div>
-                                <div className="center"><IconVantagemTableCheck/></div>
-                            </div>
-
-                            <div className="tr">
-                                <div>
-                                Custo zero de manutenções e atualizações	
-                                </div>
-                                <div className="center"><IconVantagemTableTimes/></div>
-                                <div className="center"><IconVantagemTableCheck/></div>
-                            </div>
-
-                            <div className="tr">
-                                <div>
-                                Relatórios on-line	
-                                </div>
-                                <div className="center"><IconVantagemTableTimes/></div>
-                                <div className="center"><IconVantagemTableCheck/></div>
-                            </div>
-
-                            <div className="tr">
-                                <div>
-                                Programação via WEB	
-                                </div>
-                                <div className="center"><IconVantagemTableTimes/></div>
-                                <div className="center"><IconVantagemTableCheck/></div>
-                            </div>
-
-                            <div className="tr">
-                                <div>
-                                Fast Track - nova campanha em 30 segundos	
-                                </div>
-                                <div className="center"><IconVantagemTableTimes/></div>
-                                <div className="center"><IconVantagemTableCheck/></div>
-                            </div>
-
-                            <div className="tr">
-                                <div>
-                                Relatórios on-line	
-                                </div>
-                                <div className="center"><IconVantagemTableTimes/></div>
-                                <div className="center"><IconVantagemTableCheck/></div>
-                            </div>
-
-                            <div className="tr">
-                                <div>
-                                Controle de Qualidade e Entrega	
-                                </div>
-                                <div className="center"><IconVantagemTableTimes/></div>
-                                <div className="center"><IconVantagemTableCheck/></div>
-                            </div>
-
-                            <div className="tr">
-                                <div>
-                                Campanha de áudio simples	
-                                </div>
-                                <div className="center"><IconVantagemTableCheck/></div>
-                                <div className="center"><IconVantagemTableCheck/></div>
-                            </div>
-
-                            <div className="tr">
-                                <div>
-                                Campanhas interativas	
-                                </div>
-                                <div className="center"><IconVantagemTableCircle/></div>
-                                <div className="center"><IconVantagemTableCheck/></div>
-                            </div>
-
-                        </div>
-
                     </div>
 
                 </div>
 
-                <a className="btn orange container">Solicite um orçamento!</a>
+                <a className="btn orange container" href={'/contato'}>Solicite um orçamento!</a>
 
             </div>
 

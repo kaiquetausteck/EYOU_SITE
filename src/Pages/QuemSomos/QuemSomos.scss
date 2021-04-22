@@ -5,6 +5,13 @@
         min-height: calc(100vh - 260px) !important;
         position: relative;
     }
+
+    #header{
+        background-color: #5236FF;
+        .head-social{
+            background-color: #4D33F0;
+        }
+    }
 }
 
 #conheca {
@@ -27,7 +34,16 @@
                 color:#fff;
                 font-weight: 700;
                 position: relative;
-                margin-bottom: 50px;
+                margin-bottom: 20px;
+            }
+            .line {
+                width: 130%;
+                height: 5px;
+                background-color: $colorOrange;
+                border-radius: 4.5px;
+                float: right;
+
+                animation: fadeInRight 2s;
             }
             p{
                 display: inline-block;
@@ -58,7 +74,7 @@
             float: left;
             .maozinha{
                 left: 8%;
-                bottom: -50px;
+                bottom: -76px;
                 position: absolute;
                 z-index: 1;
             }
@@ -351,6 +367,9 @@
         text-align: center;
         float: none;
         margin: auto;
+    }
+    .line{
+        width: 100% !important;
     }
 
 }

@@ -9,6 +9,8 @@ import LandingPage from './Pages/LandingPage/LandingPage'
 import QuemSomos from './Pages/QuemSomos/QuemSomos'
 import Index from './Pages/Index/Index'
 import Servicos from './Pages/Servicos/Servicos'
+import Contato from './Pages/Contato/Contato'
+import Solucoes from './Pages/Solucoes/Solucoes'
 
 //export function default
 export default function Routes() 
@@ -25,6 +27,8 @@ export default function Routes()
           <Route exact path="/servicos" component={Servicos}/>
           <Route exact path="/landingpage" component={LandingPage}/>
           <Route exact path="/quem-somos" component={QuemSomos}/>
+          <Route exact path="/contato" component={Contato}/>
+          <Route exact path="/solucoes" component={Solucoes}/>
         </Switch>
 
       </Router>

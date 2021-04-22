@@ -332,12 +332,17 @@
             line-height: 24px;
             text-align: center;
         }
+        .search-table-outter { overflow-x: scroll; }
         table{
-            width: 1200px;
+            max-width: 1200px;
+            min-width: 900px;
+            width: 100%;
+            overflow-x: scroll;
             border-collapse: collapse;
             margin: 50px auto;
             color: #859CA6;
             font-size: 14px;
+            table-layout: fixed;
             tr{
                 th{
                     padding: 15px;
@@ -369,5 +374,20 @@
         .btn{
             width: 430px;
         }
+    }
+}
+
+@media ( max-width: 1020px ) {
+    #servicos #services .group{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    #servicos #services .group .item{
+        display: inline-block;
+        vertical-align: top;
+    }
+    #featureds .group{
+        width: 95% !important;
     }
 }

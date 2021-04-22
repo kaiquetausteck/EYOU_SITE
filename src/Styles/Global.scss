@@ -18,8 +18,8 @@ html {
     scroll-margin-top: .8em;
 }
 .container {
-    width: 1335px;
-    max-width: 90%;
+    max-width: 1335px;
+    width: 90%;
     margin: 0px auto;
 }
 
@@ -80,4 +80,171 @@ svg {
             border: 1px solid $colorPrimary;
         }
     }
+}
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    right: 25px;
+    top: 86px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: #fff;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+    background: #fff;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+    height: 45px !important;
+    width: 45px !important;
+    top: 25px !important;
+    right: 35px !important;
+}
+.bm-cross-button > span {
+    position: absolute;
+    top: 98px;
+    right: 14px;
+    z-index: 99999;
+}
+/* Color/shape of close button cross */
+.bm-cross {
+    background: #fff;
+    width: 9px !important;
+    height: 42px !important;
+}
+.bm-overlay{
+    height: 100vh !important;
+    background: none !important;
+}
+
+.react-burger-cross-btn{
+    left: 9px !important;
+    top: 95px !important;
+    z-index: 77;
+}
+
+
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: #fff;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+    background: #fff;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+    height: 45px !important;
+    width: 45px !important;
+    top: 25px !important;
+    right: 35px !important;
+}
+.bm-cross-button > span {
+    position: absolute;
+    top: 98px;
+    right: 14px;
+    z-index: 99999;
+}
+/* Color/shape of close button cross */
+.bm-cross {
+    background: #fff;
+    width: 9px !important;
+    height: 42px !important;
+}
+.bm-overlay{
+    height: 100vh !important;
+    background: none !important;
+}
+
+.react-burger-cross-btn{
+    left: 9px !important;
+    top: 95px !important;
+    z-index: 77;
+}
+
+
+
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+    top:0;
+    border-left: 3px solid #fff;
+}
+.bm-menu-wrap  .btn{
+    line-height: 48px;
+    text-align: center;
+    width: 100% !important;
+    padding: 0;
+    margin: 20px 0;
+    margin-left: 0 !important;
+}
+.bm-menu-wrap ul.nav li{
+    display: inline-block !important;
+    width: 100%;
+    font-size: 16px;
+}
+.bm-menu-wrap ul.nav li a{
+    display: inline-block;
+    width: 100%;
+    font-size: 20px !important;
+}
+.bm-menu-wrap ul.nav li a span{
+    font-size: 20px !important;
+}
+
+/* General sidebar styles */
+.bm-menu {
+    background: $colorPrimary;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+    font-size: 23px;
+    margin-bottom: 15px;
+    margin-top: 100px;
+}
+
+.bm-item a{
+    color: #fff;
+    display: inline-block;
+    margin: 20px 0;
+}
+.bm-item:hover{
+    color: #fff;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+    margin-top: -88px;
 }
