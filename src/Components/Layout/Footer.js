@@ -114,7 +114,7 @@ export default function Footer()
                             </li>
                             <li>
                                 <a href="contato">
-                                    contato@eialerta.com.br
+                                    contato@eyou.com.br
                                 </a>
                             </li>
                         </ul>
