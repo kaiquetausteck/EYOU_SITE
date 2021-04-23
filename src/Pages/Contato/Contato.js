@@ -101,7 +101,7 @@ export default function Contato(props)
                         <p>
                             <IconPhone color={'#00DCC9'} /> +55 11 <b>3568-2843</b>
                             <br />
-                            <IconEmail color={'#00DCC9'} /> <b>contato@eialerta.com.br</b>
+                            <IconEmail color={'#00DCC9'} /> <b>contato@eyou.com.br</b>
                         </p>
                     </div>
                     <div className={'right'}>
