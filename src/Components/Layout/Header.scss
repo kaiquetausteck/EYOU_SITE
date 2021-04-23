@@ -1,0 +1,150 @@
+@import "../../Styles/Mixin.scss";
+header {
+    .head-social {
+        background-color: rgba(#000, .04);
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px;
+            span {
+                font-size: 14px;
+                line-height: 16.09px;
+                color: #FFF;
+                b {
+                    color: $colorOrange;
+                    font-weight: 400;
+                }
+            }
+            .social {
+                display: flex;
+                a {
+                    margin-left: 20px;
+                    svg {
+                        path {
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .head-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 23px 0px;
+        ul {
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            list-style: none;
+            align-items: center;
+            &.nav {
+                
+            }
+            &.buttons {
+                a {
+                    width: 194px;
+                    margin-left: 18px;
+                }
+            }
+            li {
+                a {
+                    span {
+                        margin-right: 18px;
+                        font-size: 16px;
+                        line-height: 18.38px;
+                        color: #FFF;
+                        font: 400;
+                    }
+                    svg {
+                        margin-right: 43px;
+                        path {
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.head-menu.container div{
+    display: none;
+}
+
+.btn-bars {
+    button {
+        width: 50px;
+        height: 30px;
+        display: flex;
+        background: none;
+        position: absolute;
+        right: 0px;
+        top: 60px;
+        margin: 25px;
+        border: none;
+
+        span {
+            width: 100%;
+            height: 3px;
+            background-color: #FFF;
+            top: calc(50% - 1.5px);
+            right: 0;
+            position: absolute;
+            transition: all .5s;
+        }
+
+        &:before {
+            top: 0px;
+        }
+
+        &:after {
+            top: calc(100% - 3px);
+        }
+
+        &:after, &:before {
+            width: 100%;
+            height: 3px;
+            background-color: #FFF;
+            content: '';
+            left: 0;
+            position: absolute;
+            transition: all .5s;
+        }
+
+        &.opened {
+            span {
+                right: -100%;
+                opacity: 0;
+                height: 0px;
+                top: calc(50%);
+
+            }
+
+            &:before {
+                transform: rotate(45deg);
+                margin-top: 13px;
+            }
+
+            &:after {
+                transform: rotate(-45deg);
+                margin-top: -13px;
+            }
+        }
+    }
+}
+
+@media ( max-width: 1020px ) {
+    .head-menu.container div{
+        display: inline-block;
+    }
+    header .head-menu ul.buttons{
+        display: none;
+    }
+    header .head-menu ul.nav li{
+        display: none;
+    }
+    header .head-menu ul.nav li:first-child{
+        display: inline-block;
+    }
+}
