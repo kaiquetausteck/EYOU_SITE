@@ -446,22 +446,6 @@ export default function Index(props)
 
             </div>
 
-            <div id="parceiros-nome">
-
-                <div className="container">
-
-                    <h5>Conheça alguns dos nossos clientes e parceiros</h5>
-
-                    <div className="list">
-                        <ParceiroFake/>
-                        <ParceiroFake/>
-                        <ParceiroFake/>
-                    </div>
-
-                </div>
-
-            </div>
-
             <Footer/>
 
         </div>
