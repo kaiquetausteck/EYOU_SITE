@@ -81,7 +81,9 @@ svg {
         }
     }
 }
-
+#react-burger-cross-btn{
+    z-index: 999999999 !important;
+}
 
 /* Position and sizing of burger button */
 .bm-burger-button {
@@ -146,10 +148,10 @@ svg {
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-    height: 45px !important;
-    width: 45px !important;
+    height: 54px !important;
+    width: 53px !important;
     top: 25px !important;
-    right: 35px !important;
+    right: 34px !important;
 }
 .bm-cross-button > span {
     position: absolute;
@@ -195,15 +197,20 @@ Note: Beware of modifying this element as it can break the animations - you shou
     margin: 20px 0;
     margin-left: 0 !important;
 }
+.bm-menu-wrap ul.nav{
+    outline: none !important;
+}
 .bm-menu-wrap ul.nav li{
     display: inline-block !important;
     width: 100%;
     font-size: 16px;
+    outline: none !important;
 }
 .bm-menu-wrap ul.nav li a{
     display: inline-block;
     width: 100%;
     font-size: 20px !important;
+    outline: none !important;
 }
 .bm-menu-wrap ul.nav li a span{
     font-size: 20px !important;

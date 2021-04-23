@@ -57,7 +57,7 @@ export default function Solucoes(props)
                 </div>
                 <div className={'container-fluid'}>
                     <h3>Faça login nas nossas soluções pela</h3>
-                    <IconTituloSolucoes width={243}/>>
+                    <IconTituloSolucoes width={243}/>
                     <p>Aqui você acessa todas as soluções que a Eyou oferece, 100% online. <b>Desejamos a você uma ótima experiência</b></p>
 
                     <div className={'categorias sms'}>

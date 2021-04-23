@@ -5,52 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a3246d5-eed3-4158-8b68-610f842b98fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/BgContatoRight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconProductApps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosBalaoMensagem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosHigienizacao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosHotPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosMensagemVoz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosPortabilidade.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosVoip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconTituloSolucoes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/BgContatoLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/BgContatoRight.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Contato/Contato.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Contato/Contato.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Solucoes/Solucoes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Solucoes/Solucoes.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ImagemSvg/ImagemSvg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/ImagemSvg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconProductSms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconProductSms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconProductTelephony.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconProductTelephony.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconProductWhatsapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconProductWhatsapp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosBalaoLapis.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosBalaoLapis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosBoleto.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosBoleto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosChatbot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosChatbot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosChaton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosChaton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosConversa.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosConversa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosEmail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosEnriquece.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosEnriquece.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosLinkCurto.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosLinkCurto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosPush.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosPush.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosWhatsapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosWhatsapp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosWhatsappConsulta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosWhatsappConsulta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosWhatsappMassa.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosWhatsappMassa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Layout/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Layout/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Layout/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Layout/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Index/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Index/Index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Index/Index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Index/Index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/QuemSomos/QuemSomos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/QuemSomos/QuemSomos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.ba0f080c0ac7ccfbe59ecd5b01945093.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/2.27784668.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/2.27784668.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.9b6a761a.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.9b6a761a.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.1def3233.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.1def3233.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.1def3233.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.ca4e21ee.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.ca4e21ee.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.3c31e681.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/js/runtime-main.3c31e681.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/LandingPage/LandingPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/LandingPage/LandingPage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/QuemSomos/QuemSomos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/QuemSomos/QuemSomos.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Servicos/Servicos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Servicos/Servicos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Servicos/Servicos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Servicos/Servicos.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Solucoes/Solucoes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Solucoes/Solucoes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Styles/Global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Global.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,26 +42,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Layout/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="78" column="24" lean-forward="true" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+            <state relative-caret-position="266">
+              <caret line="80" column="44" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Layout/Header.scss">
+        <entry file="file://$PROJECT_DIR$/src/Pages/Solucoes/Solucoes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="138" column="30" selection-start-line="138" selection-start-column="30" selection-end-line="138" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Pages/Contato/Contato.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="107" column="53" selection-start-line="107" selection-start-column="53" selection-end-line="107" selection-end-column="53" />
+            <state relative-caret-position="456">
+              <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -99,11 +63,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pages/LandingPage/LandingPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="362" column="30" selection-start-line="362" selection-start-column="30" selection-end-line="362" selection-end-column="53" />
+            <state relative-caret-position="-564">
+              <caret line="173" column="38" selection-start-line="173" selection-start-column="38" selection-end-line="173" selection-end-column="38" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Pages/LandingPage/LandingPage.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Styles/Global.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="84" column="34" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pages/QuemSomos/QuemSomos.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -115,6 +106,8 @@
       <find>Voi</find>
       <find>line</find>
       <find>handleSubmit</find>
+      <find>stroke</find>
+      <find>span</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Components/ImagemSvg/svg/Balao2.js" />
         <option value="$PROJECT_DIR$/src/Components/ImagemSvg/svg/Balao3.js" />
         <option value="$PROJECT_DIR$/src/Components/ImagemSvg/svg/Balao4.js" />
         <option value="$PROJECT_DIR$/src/Components/ImagemSvg/svg/Balao5.js" />
@@ -161,43 +153,41 @@
         <option value="$PROJECT_DIR$/src/Pages/QuemSomos/QuemSomos.js" />
         <option value="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosBalaoLapis.js" />
         <option value="$PROJECT_DIR$/src/Components/ImagemSvg/svg/IconServicosWhatsappConsulta.js" />
-        <option value="$PROJECT_DIR$/src/Pages/QuemSomos/QuemSomos.scss" />
-        <option value="$PROJECT_DIR$/src/Pages/Servicos/Servicos.scss" />
         <option value="$PROJECT_DIR$/src/Pages/Servicos/Servicos.js" />
         <option value="$PROJECT_DIR$/src/Pages/Index/Index.js" />
         <option value="$PROJECT_DIR$/src/Pages/Index/Index.scss" />
         <option value="$PROJECT_DIR$/src/Pages/Solucoes/Solucoes.scss" />
-        <option value="$PROJECT_DIR$/src/Pages/Solucoes/Solucoes.js" />
         <option value="$PROJECT_DIR$/src/Components/Layout/Header.js" />
-        <option value="$PROJECT_DIR$/src/Styles/Global.scss" />
         <option value="$PROJECT_DIR$/src/Pages/Contato/Contato.scss" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/Components/Layout/Header.scss" />
         <option value="$PROJECT_DIR$/src/Pages/Contato/Contato.js" />
+        <option value="$PROJECT_DIR$/src/Pages/Servicos/Servicos.scss" />
+        <option value="$PROJECT_DIR$/src/Pages/Solucoes/Solucoes.js" />
+        <option value="$PROJECT_DIR$/src/Styles/Global.scss" />
+        <option value="$PROJECT_DIR$/src/Pages/QuemSomos/QuemSomos.scss" />
+        <option value="$PROJECT_DIR$/src/Pages/LandingPage/LandingPage.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1934" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="EYOU_SITE" type="b2602c69:ProjectViewProjectNode" />
               <item name="EYOU_SITE" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EYOU_SITE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EYOU_SITE" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EYOU_SITE" type="b2602c69:ProjectViewProjectNode" />
@@ -275,13 +265,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/ImagemSvg/svg" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LIVE_SAUDE" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -318,18 +307,18 @@
       <updated>1618956665760</updated>
       <workItem from="1618956666965" duration="17007000" />
       <workItem from="1618976263196" duration="17040000" />
-      <workItem from="1619110110933" duration="17249000" />
+      <workItem from="1619110110933" duration="17844000" />
+      <workItem from="1619187053770" duration="5098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51296000" />
+    <option name="totallyTimeSpent" value="56989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19793323" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19952305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -347,7 +336,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="4" visible="true" weight="0.21303657" />
+      <window_info active="true" anchor="right" id="Terminal" order="4" visible="true" weight="0.21303657" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -379,7 +368,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Pages/LandingPage/LandingPage.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -418,13 +406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pages/LandingPage/LandingPage.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11271">
-          <caret line="663" selection-start-line="663" selection-end-line="663" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -650,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pages/Servicos/Servicos.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="337" column="12" selection-start-line="337" selection-start-column="12" selection-end-line="337" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pages/Index/Index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -681,16 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pages/Solucoes/Solucoes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1334">
-          <caret line="154" column="85" selection-start-line="154" selection-start-column="85" selection-end-line="154" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pages/QuemSomos/QuemSomos.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -698,20 +662,6 @@
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Styles/Global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="187" column="31" selection-start-line="187" selection-start-column="31" selection-end-line="187" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pages/QuemSomos/QuemSomos.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="322" selection-start-line="322" selection-end-line="322" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -731,25 +681,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Layout/Header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
+        <state relative-caret-position="2346">
           <caret line="138" column="30" selection-start-line="138" selection-start-column="30" selection-end-line="138" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pages/LandingPage/LandingPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="362" column="30" selection-start-line="362" selection-start-column="30" selection-end-line="362" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Layout/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="78" column="24" lean-forward="true" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -760,6 +693,61 @@
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pages/Servicos/Servicos.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="150" column="41" selection-start-line="150" selection-start-column="41" selection-end-line="150" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pages/Solucoes/Solucoes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Layout/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="80" column="44" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Styles/Global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="84" column="34" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pages/QuemSomos/QuemSomos.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pages/LandingPage/LandingPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-564">
+          <caret line="173" column="38" selection-start-line="173" selection-start-column="38" selection-end-line="173" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pages/LandingPage/LandingPage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
         </state>
       </provider>
     </entry>
