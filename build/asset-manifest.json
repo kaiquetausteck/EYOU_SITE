@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.d86a4bee.chunk.css",
-    "main.js": "/static/js/main.cedea0c5.chunk.js",
-    "main.js.map": "/static/js/main.cedea0c5.chunk.js.map",
+    "main.css": "/static/css/main.112aa3e4.chunk.css",
+    "main.js": "/static/js/main.f8547b23.chunk.js",
+    "main.js.map": "/static/js/main.f8547b23.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3c31e681.js",
     "runtime-main.js.map": "/static/js/runtime-main.3c31e681.js.map",
-    "static/css/2.37309d4c.chunk.css": "/static/css/2.37309d4c.chunk.css",
-    "static/js/2.dfa5471e.chunk.js": "/static/js/2.dfa5471e.chunk.js",
-    "static/js/2.dfa5471e.chunk.js.map": "/static/js/2.dfa5471e.chunk.js.map",
+    "static/css/2.27784668.chunk.css": "/static/css/2.27784668.chunk.css",
+    "static/js/2.961334da.chunk.js": "/static/js/2.961334da.chunk.js",
+    "static/js/2.961334da.chunk.js.map": "/static/js/2.961334da.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.87bae4b035b0d1ef247131450da189c2.js": "/precache-manifest.87bae4b035b0d1ef247131450da189c2.js",
+    "precache-manifest.ebe4f579b85464e9c110e3cbba0fadd7.js": "/precache-manifest.ebe4f579b85464e9c110e3cbba0fadd7.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.37309d4c.chunk.css.map": "/static/css/2.37309d4c.chunk.css.map",
-    "static/css/main.d86a4bee.chunk.css.map": "/static/css/main.d86a4bee.chunk.css.map",
-    "static/js/2.dfa5471e.chunk.js.LICENSE.txt": "/static/js/2.dfa5471e.chunk.js.LICENSE.txt",
-    "static/media/Contato.scss": "/static/media/BgContatoRight.fdff70f3.svg",
+    "static/css/2.27784668.chunk.css.map": "/static/css/2.27784668.chunk.css.map",
+    "static/css/main.112aa3e4.chunk.css.map": "/static/css/main.112aa3e4.chunk.css.map",
+    "static/js/2.961334da.chunk.js.LICENSE.txt": "/static/js/2.961334da.chunk.js.LICENSE.txt",
+    "static/media/Contato.scss": "/static/media/BgContatoRight.9c93f7f5.svg",
     "static/media/LogoEYou.png": "/static/media/LogoEYou.ef853ba2.png",
     "static/media/QuemSomos.scss": "/static/media/banner-quem-somos.da6b1715.jpg",
     "static/media/Index.scss": "/static/media/bg-cloud-foguete.f8bfcdfe.png",
@@ -25,9 +25,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3c31e681.js",
-    "static/css/2.37309d4c.chunk.css",
-    "static/js/2.dfa5471e.chunk.js",
-    "static/css/main.d86a4bee.chunk.css",
-    "static/js/main.cedea0c5.chunk.js"
+    "static/css/2.27784668.chunk.css",
+    "static/js/2.961334da.chunk.js",
+    "static/css/main.112aa3e4.chunk.css",
+    "static/js/main.f8547b23.chunk.js"
   ]
 }

@@ -31,7 +31,7 @@ export default function Index(props)
 
                 <Header/>
 
-                <div id="banner">
+                <div id="banner" className="page-effect">
 
                     <div className="image-background">
                         

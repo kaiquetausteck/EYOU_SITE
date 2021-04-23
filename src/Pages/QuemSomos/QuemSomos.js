@@ -23,7 +23,7 @@ export default function QuemSomos(props)
             <div id="quem-somos">
                 <div id="header">
                     <Header />
-                    <div id={'conheca'}>
+                    <div id={'conheca'} className="page-effect">
                         <div className={'container-fluid'}>
                             <div className={'left'}>
                                 <img className={'maozinha'} src={maozinha}/>

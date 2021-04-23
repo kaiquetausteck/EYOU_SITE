@@ -17,7 +17,7 @@ export default function Servicos(props)
 
                 <Header />
 
-                <div id="banner">
+                <div id="banner" className="page-effect">
 
                     <div className="container">
                         
@@ -73,7 +73,7 @@ export default function Servicos(props)
                     </div>
                     <div className="bottom">
                         <div className="title">
-                            SOLUÇÕES<br/>DESSE CANAL
+                            SOLUÇÕES <br/>DESSE CANAL
                         </div>
                         <div className="items">
                             <div className="item">
@@ -117,7 +117,7 @@ export default function Servicos(props)
                     </div>
                     <div className="bottom">
                         <div className="title">
-                            SOLUÇÕES<br/>DESSE CANAL
+                            SOLUÇÕES <br/>DESSE CANAL
                         </div>
                         <div className="items">
                             <div className="item">
@@ -181,7 +181,7 @@ export default function Servicos(props)
                     </div>
                     <div className="bottom">
                         <div className="title">
-                            SOLUÇÕES<br/>DESSE CANAL
+                            SOLUÇÕES <br/>DESSE CANAL
                         </div>
                         <div className="items">
                             <div className="item">

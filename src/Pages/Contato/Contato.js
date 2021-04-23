@@ -92,7 +92,7 @@ export default function Contato(props)
                 <div id="header">
                     <Header />
                 </div>
-                <div className={'container-fluid'}>
+                <div className={'container-fluid page-effect'}>
                     <div className={'left'}>
                         <h2>Peça um orçamento agora mesmo!</h2>
                         <h3>

@@ -55,7 +55,7 @@ export default function Solucoes(props)
                 <div id="header">
                     <Header />
                 </div>
-                <div className={'container-fluid'}>
+                <div className={'container-fluid page-effect'}>
                     <h3>Faça login nas nossas soluções pela</h3>
                     <IconTituloSolucoes width={243}/>
                     <p>Aqui você acessa todas as soluções que a Eyou oferece, 100% online. <b>Desejamos a você uma ótima experiência</b></p>

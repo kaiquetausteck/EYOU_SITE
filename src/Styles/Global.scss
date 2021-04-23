@@ -21,6 +21,19 @@ html {
     max-width: 1335px;
     width: 90%;
     margin: 0px auto;
+
+}
+
+.page-effect {
+    animation: pageReload .5s;
+    @keyframes pageReload {
+        from {
+            filter: blur(100px);
+        }
+        to {
+            filter: blur(0px);
+        }
+      }
 }
 
 svg {
@@ -125,7 +138,6 @@ svg {
 }
 .bm-overlay{
     height: 100vh !important;
-    background: none !important;
 }
 
 .react-burger-cross-btn{
@@ -252,6 +264,15 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Styling of overlay */
 .bm-overlay {
-    background: rgba(0, 0, 0, 0.3);
-    margin-top: -88px;
+    background: rgba(0, 0, 0, 0.3) !important;
+    width: 100% !important;
+    left: 0px;
+    top: 0px;
+    height: 100% !important;
+}
+.bm-menu-wrap {
+    border: none !important;
+    &aria-hidden[false] {
+        box-shadow: 0px 0px 100px 10px #000;
+    }
 }
