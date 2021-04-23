@@ -160,7 +160,7 @@ export default function Servicos(props)
                         <div className="text">
                             <div className="title">
                                 <IconServicosTitulo/>
-                                <span>Whatsapp e Telefonia</span>
+                                <span>WhatsApp e Telefonia</span>
                             </div>
                             <p>Esteja no aplicativo mais usado pelos brasileiros e utilize os celulares a favor da sua marca.</p>
                             <div className="items">

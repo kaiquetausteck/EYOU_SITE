@@ -99,7 +99,7 @@ export default function Index(props)
                 <div className="product">
                     <div className="title">
                         <IconProductWhatsapp/>
-                        <span>Whatsapp</span>
+                        <span>WhatsApp</span>
                     </div>
                     <p>
                         <b>• 90%</b> dos smartphones com app <b>Instalado</b> <br/>
