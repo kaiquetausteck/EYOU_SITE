@@ -248,13 +248,13 @@ export default function Servicos(props)
                             <li>P.As recebem apenas clientes interessados</li>
                             <li>Alto índice de conversão</li>
                             <li>Alto volume de sucesso aumenta a auto estima dos operadores</li>
-                            <li>Pequeno número de P.As percorrem um grande mailing de em menor espaço de tempo</li>
+                            <li>Pequeno número de P.As percorrem um grande mailing em menor espaço de tempo</li>
                             <li>Redução de custo na conversão</li>
                         </ul>
                     </div>
                 </div>
 
-                <Link className="btn orange container" to={'/contato'}>Faça já uma cotação</Link>
+                <Link className="btn orange container" to={'/contato'}>Solicite um orçamento!</Link>
             </div>
 
             <div id="services">
@@ -520,7 +520,7 @@ export default function Servicos(props)
                 </div>
 
                 <p><b>Vamos encontrar juntos a sua solução customizada ideal</b></p>
-                <Link className="btn orange container" to={'/contato'}>Fale conosco</Link>
+                <Link className="btn orange container" to={'/contato'}>Solicite um orçamento!</Link>
             </div>
         </div>
         <Footer/>

@@ -53,10 +53,10 @@ export default function Index(props)
                             </div>
 
                             <p>
-                                Conheça nossa plataforma multicanal para envio de mensagens aos seus clientes, totalmente customizavel e modular - <span>Tenha total liberdade e crie uma solução sob medida para sua empresa.</span> 
+                                Conheça nossa plataforma Omnichannel para envio de mensagens aos seus clientes, totalmente customizavel e modular - <span>Tenha total liberdade e crie uma solução sob medida para sua empresa.</span> 
                             </p>
 
-                            <a className="btn outline white" href={'/contato'}>COMECE AGORA, É GRÁTIS!</a>
+                            <a className="btn outline white" href={'/contato'}>AGENDE UM TESTE GRÁTIS</a>
 
                         </div>
                     </div>
@@ -144,7 +144,7 @@ export default function Index(props)
                 <div className="container">
 
                     <h4>
-                    Aproveite toda a versatilidade da Plataforma Multicanal Eyou.<br/> Use e abuse da criatividade e de estratégias para atingir seu target!
+                    Aproveite toda a versatilidade da Plataforma Omnichannel Eyou.<br/> Use e abuse da criatividade e de estratégias para atingir seu target!
                     </h4>
 
                     <ListagemProdutos/>
