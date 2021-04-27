@@ -117,7 +117,7 @@ export default function QuemSomos(props)
                 <div className={'container-fluid'}>
                     <QSIconDataCenter />
                     <h2>Plataforma em Nuvem</h2>
-                    <p>Nosso modelo de fornecimento é 100% online e alocado no Cloud Oracle, o mais seguro e estáveis do Mercado.</p>
+                    <p>Nosso modelo de fornecimento é 100% online e alocado no Cloud Oracle, o mais seguro e estável do Mercado.</p>
                     <ul>
                         <li><b>•</b> Garantia de baixos investimentos e nenhum impacto de infra estrutura na sua empresa.</li>
                         <li><b>•</b> Investimentos em softwares, hardwares e infraestrutura por conta da Eyou.</li>

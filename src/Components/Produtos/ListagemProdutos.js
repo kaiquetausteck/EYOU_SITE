@@ -56,7 +56,7 @@ export default function ListagemProdutos()
                 <div className="product red">
                     <h2>Chatbot</h2>
                     <p className="description">
-                        <b>Reduza custos e aumente expressivamente a comunicação</b> com seu público-alvo, sem mexer na sua infraestrutura.
+                        <b>Atinja 5 bilhões de clientes no Mundo todo</b> com nossas soluções em telefonia móvel, e só pague por envios efetivamente entregues.
                     </p>
                     <p className="list">
                         SMS<br/>WhatsApp<br/>Chat Online

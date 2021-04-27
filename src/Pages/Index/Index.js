@@ -53,10 +53,10 @@ export default function Index(props)
                             </div>
 
                             <p>
-                                Conheça nossa plataforma multicanal para envio de mensagens aos seus clientes, totalmente customizavel e modular - <span>Tenha total liberdade e crie uma solução sob medida para sua empresa.</span> 
+                                Conheça nossa plataforma Omnichannel para envio de mensagens aos seus clientes, totalmente customizavel e modular - <span>Tenha total liberdade e crie uma solução sob medida para sua empresa.</span> 
                             </p>
 
-                            <a className="btn outline white" href={'/contato'}>COMECE AGORA, É GRÁTIS!</a>
+                            <a className="btn outline white" href={'/contato'}>AGENDE UM TESTE GRÁTIS</a>
 
                         </div>
                     </div>
@@ -99,7 +99,7 @@ export default function Index(props)
                 <div className="product">
                     <div className="title">
                         <IconProductWhatsapp/>
-                        <span>Whatsapp</span>
+                        <span>WhatsApp</span>
                     </div>
                     <p>
                         <b>• 90%</b> dos smartphones com app <b>Instalado</b> <br/>
@@ -144,7 +144,7 @@ export default function Index(props)
                 <div className="container">
 
                     <h4>
-                    Aproveite toda a versatilidade da Plataforma Multicanal Eyou.<br/> Use e abuse da criatividade e de estratégias para atingir seu target!
+                    Aproveite toda a versatilidade da Plataforma Omnichannel Eyou.<br/> Use e abuse da criatividade e de estratégias para atingir seu target!
                     </h4>
 
                     <ListagemProdutos/>
@@ -443,22 +443,6 @@ export default function Index(props)
                 </div>
 
                 <a className="btn orange container" href={'/contato'}>Solicite um orçamento!</a>
-
-            </div>
-
-            <div id="parceiros-nome">
-
-                <div className="container">
-
-                    <h5>Conheça alguns dos nossos clientes e parceiros</h5>
-
-                    <div className="list">
-                        <ParceiroFake/>
-                        <ParceiroFake/>
-                        <ParceiroFake/>
-                    </div>
-
-                </div>
 
             </div>
 

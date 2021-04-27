@@ -40,7 +40,7 @@ export default function Servicos(props)
 
             <div id="featureds">
 
-                <div className="group">
+                <div className="group" id="sms">
                     <div className="top">
                         <div className="banner">
                             <IconServicosSMSBanner/>
@@ -88,7 +88,7 @@ export default function Servicos(props)
                     </div>
                 </div>
 
-                <div className="group">
+                <div className="group" id="apps">
                     <div className="top reverse">
                         <div className="banner">
                             <IconServicosAppsBanner/>
@@ -152,7 +152,7 @@ export default function Servicos(props)
                     </div>
                 </div>
 
-                <div className="group">
+                <div className="group" id="whatsapp">
                     <div className="top">
                         <div className="banner">
                             <IconServicosWpBanner/>
@@ -160,7 +160,7 @@ export default function Servicos(props)
                         <div className="text">
                             <div className="title">
                                 <IconServicosTitulo/>
-                                <span>Whatsapp e Telefonia</span>
+                                <span>WhatsApp e Telefonia</span>
                             </div>
                             <p>Esteja no aplicativo mais usado pelos brasileiros e utilize os celulares a favor da sua marca.</p>
                             <div className="items">
@@ -200,7 +200,7 @@ export default function Servicos(props)
                     </div>
                 </div>
 
-                <div className="group">
+                <div className="group" id="chatbot">
                     <div className="top reverse">
                         <div className="banner">
                             <IconServicosChatbotBanner/>
@@ -248,13 +248,13 @@ export default function Servicos(props)
                             <li>P.As recebem apenas clientes interessados</li>
                             <li>Alto índice de conversão</li>
                             <li>Alto volume de sucesso aumenta a auto estima dos operadores</li>
-                            <li>Pequeno número de P.As percorrem um grande mailing de em menor espaço de tempo</li>
+                            <li>Pequeno número de P.As percorrem um grande mailing em menor espaço de tempo</li>
                             <li>Redução de custo na conversão</li>
                         </ul>
                     </div>
                 </div>
 
-                <Link className="btn orange container" to={'/contato'}>Faça já uma cotação</Link>
+                <Link className="btn orange container" to={'/contato'}>Solicite um orçamento!</Link>
             </div>
 
             <div id="services">
@@ -520,7 +520,7 @@ export default function Servicos(props)
                 </div>
 
                 <p><b>Vamos encontrar juntos a sua solução customizada ideal</b></p>
-                <Link className="btn orange container" to={'/contato'}>Fale conosco</Link>
+                <Link className="btn orange container" to={'/contato'}>Solicite um orçamento!</Link>
             </div>
         </div>
         <Footer/>

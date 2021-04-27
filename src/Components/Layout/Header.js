@@ -20,15 +20,9 @@ export default function Header()
                         + 55 11 3568 2843 <b>|</b> contato@eyou.com.br
                     </span>
                     <div className="social">
-                        <a href="">
-                            <IconYoutube/>
-                        </a>
-                        <a href="">
-                            <IconLinkedin/>
-                        </a>
-                        <a href="">
-                            <IconInstagram/>
-                        </a>
+                        <a href="https://www.youtube.com/channel/UCPXFCil3E1ThIuJypnJurWA" target="_blank"><IconYoutube/></a>                    
+                        <a href="https://www.linkedin.com/company/eyou/mycompany/?viewAsMember=true" target="_blank"><IconLinkedin/></a>
+                        <a href="https://www.instagram.com/eyou360/" target="_blank"><IconInstagram/></a>
                     </div>
                 </div>
             </div>
