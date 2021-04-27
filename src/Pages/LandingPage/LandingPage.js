@@ -13,6 +13,7 @@ import FooterLp3 from '../../Images/footerlp-3.png'
 import FogueteFumaca from '../../Images/foguete.png'
 import Axios from 'axios'
 import ListagemProdutos from '../../Components/Produtos/ListagemProdutos'
+import { Link } from 'react-router-dom'
 
 export default function LandingPage(props)
 {
@@ -127,14 +128,12 @@ export default function LandingPage(props)
 
                     <div className="nav-menu">
 
-                        <a className="btn secondary shadow">Acessar o Site</a>
+                        <Link to="/" className="btn secondary shadow">Acessar o Site</Link>
 
                         <div className="social">
-
-                            <a><IconYoutube/></a>                    
-                            <a><IconLinkedin/></a>
-                            <a><IconInstagram/></a>
-                            
+                            <a href="https://www.youtube.com/channel/UCPXFCil3E1ThIuJypnJurWA" target="_blank"><IconYoutube/></a>                    
+                            <a href="https://www.linkedin.com/company/eyou/mycompany/?viewAsMember=true" target="_blank"><IconLinkedin/></a>
+                            <a href="https://www.instagram.com/eyou360/" target="_blank"><IconInstagram/></a>
                         </div>
 
                     </div>
@@ -146,7 +145,7 @@ export default function LandingPage(props)
                     <div className="text">
                         <h1>Uma <b>plataforma Multicanal</b> que conecta nossas soluções de <b>comunicação em massa</b> via Ommichanel!</h1>
                         <h4>Combinamos ferramentas modulares para reduzir custos, aumentar seus resultados e potencializar a comunicação do seu negócio.</h4>
-                        <a className="btn orange" href="#contact">COMECE GRÁTIS</a>
+                        <Link to="/contato" className="btn orange" href="#contact">COMECE GRÁTIS</Link>
                     </div>
 
                     <div className="image">
@@ -161,7 +160,7 @@ export default function LandingPage(props)
 
                 <ListagemProdutos/>
 
-                <a className="btn secondary send-contact" href="#contact">PEÇA JÁ UM ORÇAMENTO</a>
+                <Link to="/contato" className="btn secondary send-contact" href="#contact">PEÇA JÁ UM ORÇAMENTO</Link>
 
             </div>
 
@@ -413,9 +412,9 @@ export default function LandingPage(props)
                             <LogoLetra/>
 
                             <div className="social">
-                                <a><IconYoutube/></a>                    
-                                <a><IconLinkedin/></a>
-                                <a><IconInstagram/></a>
+                                <a href="https://www.youtube.com/channel/UCPXFCil3E1ThIuJypnJurWA" target="_blank"><IconYoutube/></a>                    
+                                <a href="https://www.linkedin.com/company/eyou/mycompany/?viewAsMember=true" target="_blank"><IconLinkedin/></a>
+                                <a href="https://www.instagram.com/eyou360/" target="_blank"><IconInstagram/></a>
                             </div>
 
                         </div>
@@ -426,38 +425,33 @@ export default function LandingPage(props)
 
                             <ul>
                                 <li>
-                                    <a href="">
+                                    <a href="/servicos#services">
                                         Diferencial
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
-                                        Converção e Venda
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
+                                    <a href="/quem-somos#nuvem">
                                         Plataforma em Cloud
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
-                                        Vantagens Eyou
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
+                                    <a href="/quem-somos#integracao">
                                         Integração
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
-                                        Políticas de Privacidade
+                                    <a href="/#solucoes">
+                                        Possibilidade de Aplicação
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
-                                        Possibilidade de Aplicação
+                                    <a href="/servicos#bigblue">
+                                        Converção e Venda
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/#vantagens">
+                                        Vantagens Eyou
                                     </a>
                                 </li>
                             </ul>
@@ -470,28 +464,28 @@ export default function LandingPage(props)
 
                             <ul>
                                 <li>
-                                    <a href="">
+                                    <a href="/servicos#sms">
                                         SMS
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="/servicos#apps">
                                         Apps
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="/servicos#chatbot">
+                                        Chatbot
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/servicos#whatsapp">
                                         Telefonia
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="/servicos#whatsapp">
                                         WhatsApp
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        ChatBot
                                     </a>
                                 </li>
                             </ul>

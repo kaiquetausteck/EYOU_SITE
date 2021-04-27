@@ -40,7 +40,7 @@ export default function Servicos(props)
 
             <div id="featureds">
 
-                <div className="group">
+                <div className="group" id="sms">
                     <div className="top">
                         <div className="banner">
                             <IconServicosSMSBanner/>
@@ -88,7 +88,7 @@ export default function Servicos(props)
                     </div>
                 </div>
 
-                <div className="group">
+                <div className="group" id="apps">
                     <div className="top reverse">
                         <div className="banner">
                             <IconServicosAppsBanner/>
@@ -152,7 +152,7 @@ export default function Servicos(props)
                     </div>
                 </div>
 
-                <div className="group">
+                <div className="group" id="whatsapp">
                     <div className="top">
                         <div className="banner">
                             <IconServicosWpBanner/>
@@ -200,7 +200,7 @@ export default function Servicos(props)
                     </div>
                 </div>
 
-                <div className="group">
+                <div className="group" id="chatbot">
                     <div className="top reverse">
                         <div className="banner">
                             <IconServicosChatbotBanner/>

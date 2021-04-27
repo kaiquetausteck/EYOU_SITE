@@ -6,6 +6,7 @@ import "./Footer.scss"
 import FooterLp1 from '../../Images/footerlp-1.png'
 import FooterLp2 from '../../Images/footerlp-2.png'
 import FooterLp3 from '../../Images/footerlp-3.png'
+import { Link } from 'react-router-dom'
 
 export default function Footer()
 {
@@ -22,9 +23,9 @@ export default function Footer()
                         <LogoLetra/>
 
                         <div className="social">
-                            <a><IconYoutube/></a>                    
-                            <a><IconLinkedin/></a>
-                            <a><IconInstagram/></a>
+                            <a href="https://www.youtube.com/channel/UCPXFCil3E1ThIuJypnJurWA" target="_blank"><IconYoutube/></a>                    
+                            <a href="https://www.linkedin.com/company/eyou/mycompany/?viewAsMember=true" target="_blank"><IconLinkedin/></a>
+                            <a href="https://www.instagram.com/eyou360/" target="_blank"><IconInstagram/></a>
                         </div>
 
                     </div>
@@ -35,32 +36,32 @@ export default function Footer()
 
                         <ul>
                             <li>
-                                <a href="/quem-somos">
+                                <a href="/servicos#services">
                                     Diferencial
                                 </a>
                             </li>
                             <li>
-                                <a href="/quem-somos">
+                                <a href="/quem-somos#nuvem">
                                     Plataforma em Cloud
                                 </a>
                             </li>
                             <li>
-                                <a href="/quem-somos">
+                                <a href="/quem-somos#integracao">
                                     Integração
                                 </a>
                             </li>
                             <li>
-                                <a href="/quem-somos">
+                                <a href="/#solucoes">
                                     Possibilidade de Aplicação
                                 </a>
                             </li>
                             <li>
-                                <a href="/quem-somos">
+                                <a href="/servicos#bigblue">
                                     Converção e Venda
                                 </a>
                             </li>
                             <li>
-                                <a href="/quem-somos">
+                                <a href="/#vantagens">
                                     Vantagens Eyou
                                 </a>
                             </li>
@@ -74,28 +75,28 @@ export default function Footer()
 
                         <ul>
                             <li>
-                                <a href="/servicos">
+                                <a href="/servicos#sms">
                                     SMS
                                 </a>
                             </li>
                             <li>
-                                <a href="/servicos">
+                                <a href="/servicos#apps">
                                     Apps
                                 </a>
                             </li>
                             <li>
-                                <a href="/servicos">
+                                <a href="/servicos#chatbot">
+                                    Chatbot
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/servicos#whatsapp">
                                     Telefonia
                                 </a>
                             </li>
                             <li>
-                                <a href="/servicos">
+                                <a href="/servicos#whatsapp">
                                     WhatsApp
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/servicos">
-                                    Impressos
                                 </a>
                             </li>
                         </ul>
@@ -108,14 +109,14 @@ export default function Footer()
 
                         <ul>
                             <li>
-                                <a href="/contato">
+                                <Link to="/contato">
                                     +55 11 3568-2843
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="contato">
+                                <Link to="contato">
                                     contato@eyou.com.br
-                                </a>
+                                </Link>
                             </li>
                         </ul>
 

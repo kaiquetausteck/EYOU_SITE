@@ -66,10 +66,12 @@ export default function Solucoes(props)
                             <p>SMS</p>
                         </div>
                         <ul className={'nomes'}>
-                            <li>
-                                <IconServicosBalaoMensagem size={42} color={'#fff'} />
-                                <p>SMS</p>
-                            </li>
+                            <a target="_blank" href="https://sms.eyou.com.br/">
+                                <li>
+                                        <IconServicosBalaoMensagem size={42} color={'#fff'} />
+                                        <p>SMS</p>
+                                </li>
+                            </a>
                             <li className={'inactive'}>
                                 <IconServicosBalaoLapis size={42} color={'#4b4764'}/>
                                 <p>Messaging</p>
@@ -83,38 +85,60 @@ export default function Solucoes(props)
                             <p>APPS</p>
                         </div>
                         <ul className={'nomes'}>
-                            <li>
-                                <IconServicosChaton size={42} color={'#fff'}/>
-                                <p>Chaton</p>
-                            </li>
-                            <li>
-                                <IconServicosChatbot size={42} color={'#fff'}/>
-                                <p>Chatbot</p>
-                            </li>
-                            <li>
-                                <IconServicosPush size={42} color={'#fff'}/>
-                                <p>Push</p>
-                            </li>
-                            <li>
-                                <IconServicosEmail size={42} color={'#fff'}/>
-                                <p>E-mail</p>
-                            </li>
-                            <li>
-                                <IconServicosHotPage width={42} color={'#fff'}/>
-                                <p>Hotpage</p>
-                            </li>
+
+                            <a href="https://chaton.eialerta.com.br/eialerta/operator/login" target="_blank">
+                                <li>
+                                    <IconServicosChaton size={42} color={'#fff'}/>
+                                    <p>Chaton</p>
+                                </li>
+                            </a>
+
+                            <a href="https://eialerta.eiwhats.com/login" target="_blank">
+                                <li>
+                                    <IconServicosChatbot size={42} color={'#fff'}/>
+                                    <p>Chatbot</p>
+                                </li>
+                            </a>
+
+                            <a href="https://push.eialerta.com.br/login" target="_blank">
+                                <li>
+                                    <IconServicosPush size={42} color={'#fff'}/>
+                                    <p>Push</p>
+                                </li>
+                            </a>
+
+                            <a href="https://email.eialerta.com.br/eialerta/s/login" target="_blank">
+                                <li>
+                                    <IconServicosEmail size={42} color={'#fff'}/>
+                                    <p>E-mail</p>
+                                </li>
+                            </a>
+
+                            <a href="https://hotpage.eialerta.com.br/eialerta/s/login" target="_blank">
+                                <li>
+                                    <IconServicosHotPage width={42} color={'#fff'}/>
+                                    <p>Hotpage</p>
+                                </li>
+                            </a>
+
                             <li className={'inactive'}>
                                 <IconServicosEnriquece size={42} color={'#4b4764'}/>
                                 <p>Enriquece</p>
                             </li>
-                            <li>
-                                <IconServicosBoleto size={42} color={'#fff'}/>
-                                <p>Boleto</p>
-                            </li>
-                            <li>
-                                <IconServicosLinkCurto size={42} color={'#fff'}/>
-                                <p>Link Curto</p>
-                            </li>
+
+                            <a href="https://boleto.eialerta.com.br/" target="_blank">
+                                <li>
+                                    <IconServicosBoleto size={42} color={'#fff'}/>
+                                    <p>Boleto</p>
+                                </li>
+                            </a>
+
+                            <a href="https://eion.us/login" target="_blank">
+                                <li>
+                                    <IconServicosLinkCurto size={42} color={'#fff'}/>
+                                    <p>Link Curto</p>
+                                </li>
+                            </a>
                         </ul>
                     </div>
                     <div className={'categorias whats'}>
@@ -127,10 +151,14 @@ export default function Solucoes(props)
                                 <IconServicosWhatsapp size={42} color={'#4b4764'}/>
                                 <p>WhatsApp</p>
                             </li>
-                            <li>
-                                <IconServicosWhatsappMassa size={42} color={'#fff'}/>
-                                <p>WhatsApp Massa</p>
-                            </li>
+
+                            <a href="https://zapzap.eialerta.com.br/" target="_blank">
+                                <li>
+                                    <IconServicosWhatsappMassa size={42} color={'#fff'}/>
+                                    <p>WhatsApp Massa</p>
+                                </li>
+                            </a>
+                            
                             <li className={'inactive'}>
                                 <IconServicosWhatsappConsulta size={42} color={'#4b4764'}/>
                                 <p>WhatsApp Consulta</p>
@@ -147,6 +175,9 @@ export default function Solucoes(props)
                                 <IconServicosVoip width={42} color={'#4b4764'} />
                                 <p>Voip</p>
                             </li>
+
+                            <a href="" target="_blank">
+                            </a>
                             <li>
                                 <IconServicosMensagemVoz width={42} color={'#fff'} />
                                 <p>Torpedo de Voz</p>
