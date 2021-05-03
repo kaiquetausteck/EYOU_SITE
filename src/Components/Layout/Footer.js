@@ -15,8 +15,6 @@ export default function Footer()
         <footer>
 
             <div className="container">
-            
-                <a id="mibew-agent-button" href="/eialerta/chat?locale=pt-br" target="_blank" onclick="Mibew.Objects.ChatPopups['608cacd16f309bac'].open();return false;">Clique para conversar</a>
                 
                 <div className="left">
 
